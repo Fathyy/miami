@@ -28,3 +28,24 @@ nav a, a.navbar-brand{
 .carousel-caption{
     background-color: rgb(231, 143, 93);
 }
+/* program styling */
+.program{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+.program .card img{
+    height: 300px;
+    opacity: .8;
+}
+.program .card {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.program .card:hover img{
+    opacity: 1;
+
+}
+.program .card:hover .card-body{
+    color: white;
+    background: linear-gradient(to left, #63f5d59c, #2f50499c );
+}
