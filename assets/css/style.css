@@ -50,5 +50,50 @@ nav a, a.navbar-brand{
     background: linear-gradient(to left, #63f5d59c, #2f50499c );
 }
 .plan{
-    background: linear-gradient(45deg, #FF8811, #fcdab86b, #64482c49), url(../images/chris-montgomery-smgTvepind4-unsplash.jpg);
+    background: linear-gradient(45deg, #0f065d41, #20278341), url(../images/bb.jpg);
+}
+.choose{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.card-1{
+    border-top: solid #6d87f8;
+    background-color: white;
+    color: #4e4d4d;
+}
+.middle-card{
+    background: linear-gradient(45deg, #6d87f8, #5a8bc3);
+    color: white;
+}
+
+.btn{
+    padding: 10px;
+    margin-left: 25px;
+    
+}
+.btn-special{
+    background: linear-gradient(45deg, #6d87f8, #5a8bc3);
+    color: white;
+}
+.btn-light{
+    color:#4e4d4d ;
+}
+.dollar{
+    padding-bottom: 30px;
+    padding-left: 25px;
+    
+}
+.type{
+    padding-left: 25px;  
+    margin-top: 20px;
+}
+ul li{
+    padding: 15px;
 }
