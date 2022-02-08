@@ -49,3 +49,6 @@ nav a, a.navbar-brand{
     color: white;
     background: linear-gradient(to left, #63f5d59c, #2f50499c );
 }
+.plan{
+    background: linear-gradient(45deg, #FF8811, #fcdab86b, #64482c49), url(../images/chris-montgomery-smgTvepind4-unsplash.jpg);
+}
