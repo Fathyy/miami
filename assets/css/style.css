@@ -7,6 +7,9 @@ header i{
 header i:hover{
     color: #FF8811;
 }
+.navbar{
+top: fixed;
+}
 nav ul.navbar-nav li:hover{
     background: linear-gradient(45deg, #ecbb8b, #FF8811,#FF8811);
 }
@@ -49,8 +52,14 @@ nav a, a.navbar-brand{
     color: white;
     background: linear-gradient(to left, #63f5d59c, #2f50499c );
 }
+
+/* Pricing section starts */
 .plan{
-    background: linear-gradient(45deg, #0f065d41, #20278341), url(../images/bb.jpg);
+    background: linear-gradient(45deg, #0f065dda, #20278341), url(../images/bb.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .choose{
     text-align: center;
@@ -96,4 +105,27 @@ nav a, a.navbar-brand{
 }
 ul li{
     padding: 15px;
+}
+
+/* pricing section ends */
+/* timetable */
+.timetable{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.timetable p.title{
+    background: linear-gradient(to left, #6d87f8, #5a8bc3);
+    padding: 16px;
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.timetable img{
+    width: 100px;       
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.row-1{
+    padding: 20px;
 }
