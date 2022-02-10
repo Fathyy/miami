@@ -130,3 +130,35 @@ ul li{
     padding: 20px;
     background-color: rgb(247, 242, 242);
 }
+.row .row-2{
+    background-color: rgb(252, 215, 215);
+    padding: 20px;
+}
+.gx-5{
+    margin-left: 30px;
+}
+/* timetable section ends */
+
+/* call-in-action begins */
+.btn-custom{
+    background: linear-gradient(to left, #6d87f8, #5a8bc3);
+    border-radius: 0% !important;
+    color: white;
+}
+.btn-custom:hover{
+    background: linear-gradient(to right, #6d87f8, #5a8bc3); 
+    transition: .7s ease-in;
+    color: white;
+}
+.call-to-action{
+background-image: url(../images/bb.jpg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 100%;
+}
+.py-10{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
