@@ -162,3 +162,22 @@ opacity: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+/* call to action section ends */
+/* footer section begins */
+ul{
+    list-style-type: none;
+}
+.upper-footer{
+    background-color: #140d2c;
+}
+.white-text{
+    color: white;
+}
+/* footer section ends */
+
+.last-piece a{
+    text-align: right !important;
+}
+.last-guy{
+    background-color: #05093a;
+}
