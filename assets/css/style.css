@@ -163,21 +163,27 @@ opacity: 100%;
     padding-bottom: 100px;
 }
 /* call to action section ends */
-/* footer section begins */
+/*Upper footer section begins */
 ul{
     list-style-type: none;
 }
 .upper-footer{
-    background-color: #140d2c;
+    background-color: #19092c;
 }
 .white-text{
     color: white;
 }
-/* footer section ends */
+/*Upper footer section ends */
 
-.last-piece a{
+/* Lower footer section starts */
+
+
+.last-piece .top-a{
     text-align: right !important;
+    border-right: 1px solid white;
+    padding: 5px;
 }
-.last-guy{
-    background-color: #05093a;
+.lower-footer{
+    background-color: #130d1b;
 }
+/* lower footer section ends */
