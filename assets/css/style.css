@@ -1,17 +1,20 @@
+:root{
+    --main-bg-color:linear-gradient(to left, #6d87f8, #5a8bc3);
+}
 .text-primary{
-    color: #FF8811 !important ;
+    color: var(--main-bg-color);
 }
 header i{
     color: #4e4d4d ;
 }
 header i:hover{
-    color: #FF8811;
+    color: var(--main-bg-color);
 }
 .navbar{
 top: fixed;
 }
 nav ul.navbar-nav li:hover{
-    background: linear-gradient(45deg, #ecbb8b, #FF8811,#FF8811);
+    background: var(--main-bg-color);
 }
 nav.navbar{
     padding-top: 0px !important;
@@ -29,7 +32,7 @@ nav a, a.navbar-brand{
    
 }
 .carousel-caption{
-    background-color: rgb(231, 143, 93);
+    background-color: var(--main-bg-color);
 }
 /* program styling */
 .program{
@@ -50,7 +53,7 @@ nav a, a.navbar-brand{
 }
 .program .card:hover .card-body{
     color: white;
-    background: linear-gradient(to left, #63f5d59c, #2f50499c );
+    background: var(--main-bg-color);
 }
 
 /* Pricing section starts */
@@ -78,7 +81,7 @@ nav a, a.navbar-brand{
     color: #4e4d4d;
 }
 .middle-card{
-    background: linear-gradient(45deg, #6d87f8, #5a8bc3);
+    background: var(--main-bg-color);
     color: white;
 }
 
@@ -88,7 +91,7 @@ nav a, a.navbar-brand{
     
 }
 .btn-special{
-    background: linear-gradient(45deg, #6d87f8, #5a8bc3);
+    background: var(--main-bg-color);
     color: white;
 }
 .btn-light{
@@ -114,7 +117,7 @@ ul li{
     padding-bottom: 80px;
 }
 .timetable p.title{
-    background: linear-gradient(to left, #6d87f8, #5a8bc3);
+    background: var(--main-bg-color);
     padding: 16px;
     color: #ffff;
     font-size: 24px;
@@ -141,7 +144,7 @@ ul li{
 
 /* call-in-action begins */
 .btn-custom{
-    background: linear-gradient(to left, #6d87f8, #5a8bc3);
+    background: var(--main-bg-color);
     border-radius: 0% !important;
     color: white;
 }
